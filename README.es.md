@@ -8,6 +8,8 @@
 
 > **Última revisión: 10 de agosto de 2026** | Los detalles de los productos provienen de sus páginas oficiales. Las funciones y los límites pueden cambiar.
 
+[![HumanPen — Humanize AI writing, keep formatting intact](assets/humanpen-humanize.png)](https://humanpen.net/en/humanize)
+
 La mayoría de los humanizadores de IA funcionan como un botón de reescritura total. Pegas el texto, recibes una versión diferente y la copias de vuelta a Word. Para un correo corto, eso está bien. El problema aparece cuando lo que tienes que procesar es un trabajo con citas, fórmulas, tablas, referencias cruzadas y un formato cuidadosamente armado.
 
 Un reporte de detección puede señalar solo ocho párrafos en un documento de 10,000 palabras, pero una herramienta de reescritura total cambia todo el documento. La terminología correcta, los datos, las afirmaciones y las citas tienen que revisarse de nuevo. Los encabezados, las notas al pie, la numeración de figuras y los campos de Word también pueden necesitar reconstrucción. Un problema de redacción menor se convierte en una revisión completa del documento.

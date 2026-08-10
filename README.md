@@ -8,6 +8,8 @@
 
 > **Last reviewed: August 10, 2026** | Product details come from their official pages. Features and limits can change.
 
+[![HumanPen — Humanize AI writing, keep formatting intact](assets/humanpen-humanize.png)](https://humanpen.net/en/humanize)
+
 Most AI humanizers behave like a rewrite-all button. You paste in text, receive a different version, and copy it back into Word. That is convenient for a short email. It becomes a much harder workflow when the input is a paper with citations, formulas, tables, cross-references, and carefully built formatting.
 
 A detection report may flag only eight paragraphs in a 10,000-word paper, yet a rewrite-all tool changes the entire document. Correct terminology, data, claims, and citations must then be checked again. Headings, footnotes, figure numbers, and Word fields may also need to be rebuilt. A small writing problem turns into a full-document review.
