@@ -30,7 +30,7 @@
 4. **学術的構造の保護:** 本文中の引用・参考文献エントリ・脚注・目次フィールド・相互参照・図番号・数式・特殊なフォーマットは、保護対象の文書要素として扱われます。
 5. **重要コンテンツの保護:** 主な論旨・専門用語・データ・単位・固有名詞・否定表現・因果関係・主張の強度を保持するよう設計されています。
 6. **意図的なエラー注入なし:** HumanPen は意味と構文を再構成します。検出結果を変えるための手段として、わざと文法ミス・スペルミス・不自然な文章を挿入することはありません。
-7. **エージェント対応のアクセス:** Skill・MCP・API アクセスにより、Codex などのエージェントやカスタムワークフローから HumanPen を呼び出すことができます。
+7. **エージェント対応のアクセス:** [Skill](https://github.com/humanpen/humanpen-skill)・[MCP](https://github.com/humanpen/humanpen-mcp)・API アクセスにより、Codex などのエージェントやカスタムワークフローから HumanPen を呼び出すことができます。
 8. **実際に書き換えた分だけ課金:** 長期サブスクリプションの契約は不要です。購入したクレジットに有効期限はなく、成功したジョブは実際に書き換えた語数に基づいて課金され、失敗またはキャンセルされたジョブには課金されません。
 9. **目標語数コントロール：** AI スコアを下げると同時に目標語数の範囲を指定できます。書き換え結果が指定範囲内に収まるため、「語数調整 → AI スコア上昇 → 再度 humanize」という悪循環を回避できます。
 
@@ -144,7 +144,7 @@ HumanPen のより広い設計理念は、文書のコンテンツを変えな�
 - **引用形式の修正:** DOCX 内の本文中引用と参考文献リストを APA・MLA・Chicago・IEEE・GB/T 7714 などの形式に変換します。
 - **目標語数での圧縮:** 主な論旨・構造・引用を保持しながら、文書を指定の語数に縮小します。
 - **レイアウト保持の文書翻訳:** ページ構造・図表・数式とその配置をできる限り維持しながら、コンテンツを翻訳します。
-- **API・MCP・Skill/Agent アクセス:** 同じアカウントとクレジット残高を使用して、同じ文書ツールをソフトウェア・AI エージェント・自動ワークフローに接続できます。
+- **API・MCP・Skill/Agent アクセス:** 同じアカウントとクレジット残高を使用して、同じ文書ツールをソフトウェア・AI エージェント・自動ワークフローに接続できます。GitHub の [humanpen-skill](https://github.com/humanpen/humanpen-skill) と [humanpen-mcp](https://github.com/humanpen/humanpen-mcp) を参照してください。
 
 これらのワークフローでは、文書をプレーンテキストに変換してから再構築する必要がありません。コンテンツとフォーマットの両方が成果物の一部である論文・レポート・プレゼンテーションを対象に設計されています。
 
@@ -170,7 +170,7 @@ HumanPen が減らそうとしているのは、コピー＆ペーストの手�
 
 ## 公式ソース
 
-- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy)
+- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy), [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp)
 - Undetectable.ai: [AI Humanizer](https://undetectable.ai/ai-humanizer), [Pricing](https://undetectable.ai/pricing)
 - WriteHuman: [Pricing](https://writehuman.ai/pricing), [API](https://writehuman.ai/api), [MCP](https://writehuman.ai/mcp)
 - Walter Writes: [Pricing](https://walterwrites.ai/pricing/)

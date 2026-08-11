@@ -30,7 +30,7 @@ Isso muda o fluxo de trabalho de nove formas importantes:
 4. **Proteção da estrutura acadêmica:** citações no texto, entradas de referência, notas de rodapé, campos de sumário, referências cruzadas, numeração de figuras, fórmulas e formatação especial são tratados como elementos protegidos do documento.
 5. **Proteção de conteúdo essencial:** o sistema é projetado para preservar o argumento principal, termos técnicos, dados, unidades, nomes próprios, negações, relações causais e a intensidade de uma afirmação.
 6. **Sem injeção deliberada de erros:** o HumanPen reestrutura significado e sintaxe. Ele não usa erros gramaticais intencionais, erros ortográficos ou frases estranhas como estratégia para alterar um resultado de detecção.
-7. **Acesso pronto para agentes:** o acesso via Skill, MCP e API permite chamar o HumanPen a partir de agentes como o Codex ou de um fluxo de trabalho automatizado.
+7. **Acesso pronto para agentes:** o acesso via [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp) e API permite chamar o HumanPen a partir de agentes como o Codex ou de um fluxo de trabalho automatizado.
 8. **Pague apenas pelo que foi reescrito:** não há assinatura obrigatória de longo prazo. Créditos comprados não expiram, trabalhos bem-sucedidos são cobrados pelas palavras efetivamente reescritas, e trabalhos que falharam ou foram cancelados não são cobrados.
 9. **Controle de contagem de palavras:** defina uma faixa de palavras-alvo ao humanizar, para que o resultado fique dentro do intervalo exigido. Isso evita o ciclo de ajustar a contagem de palavras e ver a pontuação de IA subir de novo.
 
@@ -144,7 +144,7 @@ O princípio de design mais amplo do HumanPen é alterar o conteúdo do document
 - **Correção de formato de citações:** atualiza citações no texto e a lista de referências em um DOCX para formatos como APA, MLA, Chicago, IEEE ou GB/T 7714.
 - **Condensação para tamanho-alvo:** reduz um documento para uma contagem de palavras solicitada, preservando o argumento principal, a estrutura e as citações.
 - **Tradução de documentos com preservação de layout:** traduz o conteúdo mantendo a estrutura da página, gráficos, fórmulas e suas posições o mais estáveis possível.
-- **Acesso via API, MCP e Skill/Agent:** conecta as mesmas ferramentas de documento a um software, um agente de IA ou um fluxo de trabalho automatizado usando a mesma conta e saldo de créditos.
+- **Acesso via API, MCP e Skill/Agent:** conecta as mesmas ferramentas de documento a um software, um agente de IA ou um fluxo de trabalho automatizado usando a mesma conta e saldo de créditos. Veja [humanpen-skill](https://github.com/humanpen/humanpen-skill) e [humanpen-mcp](https://github.com/humanpen/humanpen-mcp) no GitHub.
 
 Esses fluxos de trabalho não exigem que os usuários transformem um documento em texto puro e o reconstruam depois. Eles são voltados para artigos, relatórios e apresentações onde conteúdo e formatação fazem parte da entrega.
 
@@ -170,7 +170,7 @@ Para algumas centenas de palavras, muitos humanizadores maduros de caixa de text
 
 ## Fontes oficiais
 
-- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy)
+- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy), [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp)
 - Undetectable.ai: [AI Humanizer](https://undetectable.ai/ai-humanizer), [Pricing](https://undetectable.ai/pricing)
 - WriteHuman: [Pricing](https://writehuman.ai/pricing), [API](https://writehuman.ai/api), [MCP](https://writehuman.ai/mcp)
 - Walter Writes: [Pricing](https://walterwrites.ai/pricing/)

@@ -30,7 +30,7 @@ Một báo cáo kiểm tra có thể chỉ đánh dấu tám đoạn trong bài 
 4. **Bảo vệ cấu trúc học thuật:** trích dẫn trong văn bản, mục tham khảo, chú thích cuối trang, trường mục lục, tham chiếu chéo, số thứ tự hình ảnh, công thức và định dạng đặc biệt được xem là các thành phần tài liệu được bảo vệ.
 5. **Bảo vệ nội dung chính:** hệ thống được thiết kế để giữ nguyên luận điểm chính, thuật ngữ chuyên môn, dữ liệu, đơn vị, danh từ riêng, phủ định, quan hệ nhân quả và mức độ khẳng định của một luận điểm.
 6. **Không cố tình thêm lỗi:** HumanPen tái cấu trúc ý nghĩa và cú pháp. Nó không dùng lỗi ngữ pháp, lỗi chính tả hay câu lủng củng có chủ đích làm chiến thuật để thay đổi kết quả kiểm tra.
-7. **Sẵn sàng cho Agent:** truy cập qua Skill, MCP và API cho phép gọi HumanPen từ các agent như Codex hoặc từ quy trình tự động.
+7. **Sẵn sàng cho Agent:** truy cập qua [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp) và API cho phép gọi HumanPen từ các agent như Codex hoặc từ quy trình tự động.
 8. **Chỉ trả tiền cho phần thực sự được viết lại:** không bắt buộc đăng ký dài hạn. Credit đã mua không hết hạn, các lệnh thành công chỉ tính phí theo số từ thực sự được viết lại, và các lệnh thất bại hoặc bị hủy không bị tính phí.
 9. **Kiểm soát số từ mục tiêu:** Bạn có thể đặt khoảng số từ mục tiêu khi humanize, để kết quả nằm trong phạm vi yêu cầu. Điều này tránh vòng lặp "chỉnh số từ → điểm AI tăng lại → phải humanize lại".
 
@@ -144,7 +144,7 @@ Nguyên tắc thiết kế rộng hơn của HumanPen là thay đổi nội dung
 - **Sửa định dạng trích dẫn:** cập nhật trích dẫn trong văn bản và danh mục tham khảo trong DOCX sang các định dạng như APA, MLA, Chicago, IEEE, hoặc GB/T 7714.
 - **Rút gọn theo độ dài mục tiêu:** giảm tài liệu xuống số từ yêu cầu trong khi giữ nguyên luận điểm chính, cấu trúc và trích dẫn.
 - **Dịch tài liệu giữ nguyên bố cục:** dịch nội dung trong khi giữ cấu trúc trang, biểu đồ, công thức và vị trí của chúng ổn định nhất có thể.
-- **Truy cập API, MCP, và Skill/Agent:** kết nối các công cụ tài liệu tương tự vào phần mềm, agent AI, hoặc quy trình tự động bằng cùng tài khoản và credit.
+- **Truy cập API, MCP, và Skill/Agent:** kết nối các công cụ tài liệu tương tự vào phần mềm, agent AI, hoặc quy trình tự động bằng cùng tài khoản và credit. Xem [humanpen-skill](https://github.com/humanpen/humanpen-skill) và [humanpen-mcp](https://github.com/humanpen/humanpen-mcp) trên GitHub.
 
 Các quy trình này không yêu cầu người dùng chuyển tài liệu thành văn bản thuần rồi xây dựng lại sau đó. Chúng được thiết kế cho bài luận, báo cáo và bài thuyết trình, nơi nội dung và định dạng đều là một phần của sản phẩm cuối cùng.
 
@@ -170,7 +170,7 @@ Với vài trăm từ, có nhiều công cụ humanizer dạng ô dán văn bả
 
 ## Nguồn chính thức
 
-- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy)
+- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy), [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp)
 - Undetectable.ai: [AI Humanizer](https://undetectable.ai/ai-humanizer), [Pricing](https://undetectable.ai/pricing)
 - WriteHuman: [Pricing](https://writehuman.ai/pricing), [API](https://writehuman.ai/api), [MCP](https://writehuman.ai/mcp)
 - Walter Writes: [Pricing](https://walterwrites.ai/pricing/)

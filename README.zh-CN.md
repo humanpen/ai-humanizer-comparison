@@ -30,7 +30,7 @@
 4. **保护学术结构**：文内引用、参考文献、脚注、目录域、交叉引用、图表编号、公式和特殊排版被识别为重点保护对象。
 5. **保护关键内容**：尽量保持主要观点、专业术语、数据、单位、专有名词、否定关系和论断强度不变。
 6. **不靠制造错误降 AI**：通过理解语义和重构句法改变表达，不把故意加入语法错误、拼写错误或生硬句子作为策略。
-7. **可接入 Agent 工作流**：提供 Skill、MCP 和 API，可从 Codex 等 Agent 或自有系统调用。
+7. **可接入 Agent 工作流**：提供 [Skill](https://github.com/humanpen/humanpen-skill)、[MCP](https://github.com/humanpen/humanpen-mcp) 和 API，可从 Codex 等 Agent 或自有系统调用。
 8. **只按实际修改量计费**：无须长期订阅；购买积分不过期，成功后按实际改写词数扣除，失败或取消不收费。
 9. **支持目标词数控制**：可在降 AI 时指定词数范围，让改写结果直接落在目标区间内，避免"改完再调词数、调完又推高 AI 率"的反复循环。
 
@@ -142,7 +142,7 @@ HumanPen 的共同产品思路是“处理文档内容，但尽量保留文档�
 - **引用格式校正**：在 DOCX 中统一处理正文引用与参考文献，可转换为 APA、MLA、Chicago、IEEE、GB/T 7714 等格式；
 - **按目标字数精简**：不是简单删除末尾内容，而是在保留核心论点、结构和引用的前提下压缩到目标长度；
 - **保留布局的文档翻译**：翻译内容的同时尽量维持页面结构、图表和公式位置；
-- **API、MCP 与 Skill/Agent**：把同一套能力接入程序、AI agent 或自动化流程，并共享账户与积分。
+- **API、MCP 与 Skill/Agent**：把同一套能力接入程序、AI agent 或自动化流程，并共享账户与积分。参见 GitHub 上的 [humanpen-skill](https://github.com/humanpen/humanpen-skill) 和 [humanpen-mcp](https://github.com/humanpen/humanpen-mcp)。
 
 这些功能不要求用户把文档拆成纯文本再重建，适合论文、报告、演示文稿等“内容与格式都属于交付物”的场景。
 
@@ -168,7 +168,7 @@ HumanPen 不只是想少点几次“复制”和“粘贴”。它真正想减�
 
 ## 官方来源
 
-- HumanPen：[Humanize](https://humanpen.net/en/humanize)、[Pricing](https://humanpen.net/en/pricing)、[Developers](https://humanpen.net/en/developers)、[Privacy](https://humanpen.net/en/legal/privacy)
+- HumanPen：[Humanize](https://humanpen.net/en/humanize)、[Pricing](https://humanpen.net/en/pricing)、[Developers](https://humanpen.net/en/developers)、[Privacy](https://humanpen.net/en/legal/privacy)、[Skill](https://github.com/humanpen/humanpen-skill)、[MCP](https://github.com/humanpen/humanpen-mcp)
 - Undetectable.ai：[AI Humanizer](https://undetectable.ai/ai-humanizer)、[Pricing](https://undetectable.ai/pricing)
 - WriteHuman：[Pricing](https://writehuman.ai/pricing)、[API](https://writehuman.ai/api)、[MCP](https://writehuman.ai/mcp)
 - Walter Writes：[Pricing](https://walterwrites.ai/pricing/)

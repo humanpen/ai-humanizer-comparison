@@ -30,7 +30,7 @@
 4. **حماية البنية الأكاديمية:** المراجع داخل النص، وقوائم المصادر، والحواشي السفلية، وحقول جدول المحتويات، والإحالات المرجعية، وترقيم الأشكال، والمعادلات، والتنسيقات الخاصة تُعامَل كعناصر محمية في المستند.
 5. **حماية المحتوى الجوهري:** صُمّم النظام للحفاظ على الحجة الأساسية، والمصطلحات التقنية، والبيانات، والوحدات، وأسماء العلم، والنفي، والعلاقات السببية، وقوة الادعاء.
 6. **لا حقن متعمد للأخطاء:** يعيد HumanPen هيكلة المعنى والتركيب النحوي. لا يستخدم الأخطاء النحوية المتعمدة أو الأخطاء الإملائية أو الجمل الركيكة كاستراتيجية لتغيير نتيجة الكشف.
-7. **وصول جاهز للعملاء الآليين:** يتيح الوصول عبر Skill وMCP وAPI استدعاء HumanPen من عملاء آليين مثل Codex أو من سير عمل مخصص.
+7. **وصول جاهز للعملاء الآليين:** يتيح الوصول عبر [Skill](https://github.com/humanpen/humanpen-skill) و[MCP](https://github.com/humanpen/humanpen-mcp) وAPI استدعاء HumanPen من عملاء آليين مثل Codex أو من سير عمل مخصص.
 8. **ادفع فقط مقابل ما أُعيدت كتابته فعلًا:** لا يوجد اشتراك إلزامي طويل الأجل. الرصيد المشترى لا ينتهي صلاحيته، والمهام الناجحة تُحاسب على الكلمات المعاد كتابتها فعليًا، والمهام الفاشلة أو الملغاة لا تُخصم.
 9. **التحكم في عدد الكلمات المستهدف:** يمكنك تحديد نطاق عدد الكلمات المطلوب أثناء الأنسنة، بحيث تقع النتيجة ضمن النطاق المحدد. هذا يتجنب حلقة "تعديل عدد الكلمات → ارتفاع نسبة الذكاء الاصطناعي → إعادة الأنسنة مجددًا".
 
@@ -144,7 +144,7 @@
 - **تصحيح صيغة المراجع:** تحديث المراجع داخل النص وقائمة المصادر في ملف DOCX إلى صيغ مثل APA أو MLA أو Chicago أو IEEE أو GB/T 7714.
 - **التكثيف إلى طول محدد:** تقليص المستند إلى عدد كلمات مطلوب مع الحفاظ على الحجة الأساسية والبنية والمراجع.
 - **ترجمة المستندات مع الحفاظ على التخطيط:** ترجمة المحتوى مع الحفاظ على بنية الصفحة والرسوم البيانية والمعادلات ومواقعها بأكبر قدر ممكن من الاستقرار.
-- **الوصول عبر API وMCP وSkill/Agent:** ربط نفس أدوات المستندات ببرنامج أو عميل آلي أو سير عمل مؤتمت باستخدام نفس الحساب والرصيد.
+- **الوصول عبر API وMCP وSkill/Agent:** ربط نفس أدوات المستندات ببرنامج أو عميل آلي أو سير عمل مؤتمت باستخدام نفس الحساب والرصيد. انظر [humanpen-skill](https://github.com/humanpen/humanpen-skill) و[humanpen-mcp](https://github.com/humanpen/humanpen-mcp) على GitHub.
 
 لا تتطلب هذه الأساليب من المستخدمين تحويل المستند إلى نص عادي ثم إعادة بنائه لاحقًا. إنها مصممة للأبحاث والتقارير والعروض التقديمية حيث يكون المحتوى والتنسيق جزءًا من التسليم النهائي.
 
@@ -170,7 +170,7 @@
 
 ## المصادر الرسمية
 
-- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy)
+- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy), [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp)
 - Undetectable.ai: [AI Humanizer](https://undetectable.ai/ai-humanizer), [Pricing](https://undetectable.ai/pricing)
 - WriteHuman: [Pricing](https://writehuman.ai/pricing), [API](https://writehuman.ai/api), [MCP](https://writehuman.ai/mcp)
 - Walter Writes: [Pricing](https://walterwrites.ai/pricing/)

@@ -30,7 +30,7 @@ That changes the workflow in nine important ways:
 4. **Academic structure protection:** in-text citations, reference entries, footnotes, table-of-contents fields, cross-references, figure numbering, formulas, and special formatting are treated as protected document elements.
 5. **Key-content protection:** the system is designed to preserve the main argument, technical terms, data, units, proper names, negation, causal relationships, and the strength of a claim.
 6. **No deliberate error injection:** HumanPen restructures meaning and syntax. It does not use intentional grammar mistakes, spelling errors, or awkward sentences as a strategy for changing a detection result.
-7. **Agent-ready access:** Skill, MCP, and API access make it possible to call HumanPen from agents such as Codex or from a custom workflow.
+7. **Agent-ready access:** [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp), and API access make it possible to call HumanPen from agents such as Codex or from a custom workflow.
 8. **Pay for what is actually rewritten:** there is no required long-term subscription. Purchased credits do not expire, successful jobs are billed on the words actually rewritten, and failed or cancelled jobs are not charged.
 9. **Target word-count control:** set a word-count range when humanizing, so the result lands within the target range. This avoids the cycle of fixing the word count only to push the AI score back up.
 
@@ -144,7 +144,7 @@ HumanPen's broader design principle is to change document content while preservi
 - **Citation format correction:** update in-text citations and the reference list in a DOCX to formats such as APA, MLA, Chicago, IEEE, or GB/T 7714.
 - **Target-length condensing:** reduce a document to a requested word count while preserving its main argument, structure, and citations.
 - **Layout-preserving document translation:** translate content while keeping page structure, charts, formulas, and their positions as stable as possible.
-- **API, MCP, and Skill/Agent access:** connect the same document tools to software, an AI agent, or an automated workflow using the same account and credit balance.
+- **API, MCP, and Skill/Agent access:** connect the same document tools to software, an AI agent, or an automated workflow using the same account and credit balance. See [humanpen-skill](https://github.com/humanpen/humanpen-skill) and [humanpen-mcp](https://github.com/humanpen/humanpen-mcp) on GitHub.
 
 These workflows do not require users to turn a document into plain text and rebuild it afterward. They are intended for papers, reports, and presentations where content and formatting are both part of the deliverable.
 
@@ -170,7 +170,7 @@ For a few hundred words, many mature paste-box humanizers are available. When th
 
 ## Official sources
 
-- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy)
+- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy), [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp)
 - Undetectable.ai: [AI Humanizer](https://undetectable.ai/ai-humanizer), [Pricing](https://undetectable.ai/pricing)
 - WriteHuman: [Pricing](https://writehuman.ai/pricing), [API](https://writehuman.ai/api), [MCP](https://writehuman.ai/mcp)
 - Walter Writes: [Pricing](https://walterwrites.ai/pricing/)

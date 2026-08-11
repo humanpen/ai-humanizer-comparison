@@ -30,7 +30,7 @@
 4. **학술 구조 보호:** 본문 내 인용, 참고문헌 항목, 각주, 목차 필드, 상호참조, 그림 번호, 수식, 특수 서식은 보호 대상 문서 요소로 처리됩니다.
 5. **핵심 내용 보호:** 주요 논지, 전문 용어, 데이터, 단위, 고유명사, 부정 표현, 인과 관계, 주장의 강도를 유지하도록 설계되어 있습니다.
 6. **고의적 오류 삽입 없음:** HumanPen은 의미와 구문을 재구성합니다. 의도적으로 문법 오류, 맞춤법 오류, 어색한 문장을 넣어서 검출 결과를 바꾸는 방식을 사용하지 않습니다.
-7. **에이전트 연동 가능:** Skill, MCP, API 접근을 통해 Codex 같은 에이전트나 커스텀 워크플로에서 HumanPen을 호출할 수 있습니다.
+7. **에이전트 연동 가능:** [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp), API 접근을 통해 Codex 같은 에이전트나 커스텀 워크플로에서 HumanPen을 호출할 수 있습니다.
 8. **실제 재작성된 분량만 과금:** 장기 구독이 필요 없습니다. 구매한 크레딧은 만료되지 않으며, 성공한 작업은 실제로 재작성된 단어 수만큼만 과금됩니다. 실패하거나 취소된 작업에는 요금이 부과되지 않습니다.
 9. **목표 단어 수 제어:** AI 점수를 낮추면서 동시에 목표 단어 수 범위를 지정할 수 있습니다. 결과물이 지정된 범위 안에 들어오도록 해서, "단어 수 조정 → AI 점수 상승 → 다시 humanize"라는 악순환을 피할 수 있습니다.
 
@@ -144,7 +144,7 @@ HumanPen의 더 넓은 설계 원칙은 문서 내용은 바꾸되 문서 자체
 - **인용 형식 교정:** DOCX 내 본문 인용과 참고문헌 목록을 APA, MLA, Chicago, IEEE, GB/T 7714 등의 형식으로 변환합니다.
 - **목표 분량 축약:** 주요 논지, 구조, 인용을 유지하면서 문서를 요청한 단어 수로 줄입니다.
 - **레이아웃 보존 문서 번역:** 페이지 구조, 차트, 수식, 위치를 최대한 유지하면서 내용을 번역합니다.
-- **API, MCP, Skill/Agent 접근:** 같은 문서 도구를 소프트웨어, AI 에이전트, 자동화 워크플로에 연결할 수 있으며 동일한 계정과 크레딧 잔액을 사용합니다.
+- **API, MCP, Skill/Agent 접근:** 같은 문서 도구를 소프트웨어, AI 에이전트, 자동화 워크플로에 연결할 수 있으며 동일한 계정과 크레딧 잔액을 사용합니다. GitHub의 [humanpen-skill](https://github.com/humanpen/humanpen-skill)과 [humanpen-mcp](https://github.com/humanpen/humanpen-mcp)를 참고하세요.
 
 이 워크플로는 사용자가 문서를 일반 텍스트로 변환한 뒤 다시 재구성할 필요가 없습니다. 내용과 서식이 모두 결과물의 일부인 논문, 보고서, 프레젠테이션을 위해 만들어졌습니다.
 
@@ -170,7 +170,7 @@ HumanPen이 줄이려는 것은 복사-붙여넣기 몇 단계가 아닙니다. 
 
 ## 공식 출처
 
-- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy)
+- HumanPen: [Humanize](https://humanpen.net/en/humanize), [Pricing](https://humanpen.net/en/pricing), [Developers](https://humanpen.net/en/developers), [Privacy](https://humanpen.net/en/legal/privacy), [Skill](https://github.com/humanpen/humanpen-skill), [MCP](https://github.com/humanpen/humanpen-mcp)
 - Undetectable.ai: [AI Humanizer](https://undetectable.ai/ai-humanizer), [Pricing](https://undetectable.ai/pricing)
 - WriteHuman: [Pricing](https://writehuman.ai/pricing), [API](https://writehuman.ai/api), [MCP](https://writehuman.ai/mcp)
 - Walter Writes: [Pricing](https://walterwrites.ai/pricing/)
